@@ -1,0 +1,12 @@
+{
+    "backends":
+    [
+        {
+            "id": "livegrep",
+            "addr": "codesearch_worker:9999"
+        }
+    ],
+    "feedback": {
+        "mailto": "nibz@cat.pdx.edu"
+    }
+}
