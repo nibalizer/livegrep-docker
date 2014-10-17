@@ -7,7 +7,7 @@ RUN  \
  apt-get install -y libgflags-dev libgit2-dev libjson0-dev libboost-system-dev libboost-filesystem-dev libsparsehash-dev golang git build-essential automake mercurial
 
 
-RUN cd /opt && git clone https://github.com/livegrep/livegrep
+RUN cd /opt && git clone https://github.com/nibalizer/livegrep
 
 #RUN cd /opt/livegrep && git checkout master
 
